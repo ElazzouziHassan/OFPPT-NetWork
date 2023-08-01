@@ -7,5 +7,5 @@ export const login = (req, res) => {
 }
 
 export const logout = (req, res) => {
-  // to do operation
+  // to do operation for logout
 }

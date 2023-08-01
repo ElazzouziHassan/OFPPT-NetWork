@@ -15,10 +15,9 @@ const app = express(); const PORT = process.env.HTTP_SERVER_PORT;
 
 
 
-
+app.use("/api/auth", authRoutes)
 app.use("/api/users", userRoutes)
 app.use("/api/posts", postRoutes)
-app.use("/api/auth", authRoutes)
 app.use("/api/likes", likeRoutes)
 app.use("/api/comments", commentRoutes)
 

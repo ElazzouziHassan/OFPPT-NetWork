@@ -1,11 +1,12 @@
 
 import './App.css'
+import Login from './pages/auth/login/login'
 
 function App() {
 
   return (
     <div className="App">
-      <h1>OFPPT NetWork Web APP.</h1>
+      <Login/>
     </div>
   )
 }

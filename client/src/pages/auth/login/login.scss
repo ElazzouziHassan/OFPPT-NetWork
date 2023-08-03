@@ -1,10 +1,27 @@
 .login{
-
+  height: 100vh;
+  background-color: rgb(193,190,255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   .card{
-
+    width: 50%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    min-height: 600px;
     .left{
-
-      h1{}
+      font: 1;
+      background: linear-gradient(rgba(4, 45, 150, 0.543), rgba(193, 193, 193, 0.447)),url("https://images.pexels.com/photos/3183165/pexels-photo-3183165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center;
+      background-size: cover;
+      padding: 50px;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+      h1{
+        font-size: 80px;
+        line-height: 100px;
+      }
       p{
 
         strong{}
@@ -13,6 +30,7 @@
     }
 
     .right{
+      flex: 1;
       h1{}
       form{
         input{}

@@ -1,40 +1,265 @@
-.login{
+@import 'src/style.scss';
+*{
+  margin: 0;
+  padding: 0;
+}
+.login {
   height: 100vh;
-  background-color: rgb(193,190,255);
+  background-color: #F5F5F5;
   display: flex;
   align-items: center;
   justify-content: center;
+ 
   .card{
-    width: 50%;
-    display: flex;
-    background-color: #fff;
-    border-radius: 10px;
-    min-height: 600px;
-    .left{
-      font: 1;
-      background: linear-gradient(rgba(4, 45, 150, 0.543), rgba(193, 193, 193, 0.447)),url("https://images.pexels.com/photos/3183165/pexels-photo-3183165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center;
-      background-size: cover;
-      padding: 50px;
+      display: flex;
+      background-color: #fff;
+      width: 50%;
+      border-radius: 10px;
+      min-height: 65vh;
+      
+      .left{
+          flex: 1;
+          background: 
+              linear-gradient(rgba(50, 90, 236, 0.694),rgba(4, 139, 58, 0.6))
+            ;
+          background-size: cover;
+          padding: 28px;
+          color: rgb(255, 255, 255);
+          border-radius: 10px 0 0 10px;
+          
+          img{
+            width: 20rem;
+            height: 10rem;
+            
+          }
+          h3{
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            color: rgb(29, 32, 39);
+            
+          }
+          .new-users{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: .5rem;
+            span{
+              font-size: 1.2rem;
+              color: rgb(38, 46, 63);
+              font-weight: 600;
+             
+            }
+            button{
+              width: 8rem;
+              padding: 10px;
+              border: none;
+              color: white;
+              background-color: rgb(5, 27, 10);
+              font-weight: bold;
+              cursor: pointer;
+              border-radius: 5px;
+              transition: all .4s ease-in-out;
+              
+            } 
+            button:hover{
+              background-color: rgb(75, 155, 94);
+              color: rgb(59, 29, 101);
+            }
+          }
+      }
+      .right{
+          flex:1;
+          padding: 40px;
+          // justify-content: center;
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          margin-top: 1.6rem;
+         
+          h3{
+             font-size: 3.5rem;
+             
+          }
+          form{
+              display: flex;
+              flex-direction: column;
+              gap: 15px;
+             
+              input{
+                  border: none;
+                  border-bottom: 1px solid lightslategrey;
+                  padding: 10px 10px;
+              }
+              button{
+                  width: 50%;
+                  padding: 10px;
+                  border: none;
+                  color: white;
+                  background-color: rgb(5, 27, 10);
+                  font-weight: bold;
+                  cursor: pointer;
+                  border-radius: 5px;
+                  transition: all .4s ease-in-out;
+                  
+              }
+              button:hover{
+                background-color: rgb(75, 155, 94);
+                color: rgb(59, 29, 101);
+              }
+          }
+      }
+  }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+  .login {
+    height: auto;
+    padding: 2rem;
+    
+    .card {
       flex-direction: column;
-      gap: 30px;
-      color: white;
-      h1{
-        font-size: 80px;
-        line-height: 100px;
+      width: 100%;
+      min-height: auto;
+      border-radius: 0;
+      
+      .left {
+        border-radius: 0;
+        
+        img {
+          width: 12rem;
+          height: 6rem;
+        }
+        
+        h3 {
+          font-size: 1rem;
+        }
+        
+        .new-users {
+          margin-top: 1rem;
+          
+          span {
+            font-size: 1rem;
+          }
+          
+          button {
+            width: 100%;
+          }
+        }
       }
-      p{
-
-        strong{}
+      
+      .right {
+        padding: 2rem 0;
+        
+        h3 {
+          font-size: 2rem;
+          text-align: center;
+        }
+        
+        form {
+          input {
+            padding: 10px 0;
+          }
+          
+          button {
+            width: 100%;
+          }
+        }
       }
-      span{}
     }
+  }
+}
 
-    .right{
-      flex: 1;
-      h1{}
-      form{
-        input{}
-        button{}
+/* Styles for tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .login {
+    height: auto;
+    padding: 2rem;
+    
+    .card {
+      flex-direction: column;
+      width: 100%;
+      min-height: auto;
+      border-radius: 0;
+      
+      .left {
+        border-radius: 0;
+        
+        img {
+          width: 14rem;
+          height: 7rem;
+        }
+        
+        h3 {
+          font-size: 1rem;
+        }
+        
+        .new-users {
+          margin-top: 1rem;
+          
+          span {
+            font-size: 1rem;
+          }
+          
+          button {
+            width: 100%;
+          }
+        }
+      }
+      
+      .right {
+        padding: 2rem 0;
+        
+        h3 {
+          font-size: 2rem;
+          text-align: center;
+        }
+        
+        form {
+          input {
+            padding: 10px 0;
+          }
+          
+          button {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Styles for desktop devices */
+@media (min-width: 1024px) {
+  .login {
+    height: 100vh;
+    
+    .card {
+      width: 50%;
+      
+      .left {
+        img {
+          width: 20rem;
+          height: 10rem;
+        }
+        
+        h3 {
+          font-size: 1.2rem;
+        }
+      }
+      
+      .right {
+        padding: 40px;
+        
+        h3 {
+          font-size: 3.5rem;
+        }
+        
+        form {
+          button {
+            width: 50%;
+          }
+        }
       }
     }
   }

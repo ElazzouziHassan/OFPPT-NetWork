@@ -2,8 +2,8 @@ import './App.css'
 import Login from './pages/auth/login/login'
 import Home from './pages/home/home'
 import NavBar from './components/nav-bar/NavBar'
-import LeftBar from './components/nav-bar/LeftBar'
-import RightBar from './components/nav-bar/RighBar'
+import LeftBar from './components/left-bar/LeftBar'
+import RightBar from './components/right-bar/RightBar'
 import {
   createBrowserRouter,
   Outlet,

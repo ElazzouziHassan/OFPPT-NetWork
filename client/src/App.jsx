@@ -10,7 +10,7 @@ import { createBrowserRouter, Navigate, Outlet, RouterProvider } from "react-rou
 
 function App() {
   // fake authenticated user :
-  const currentUser = false;
+  const currentUser = true;
 
   // Main Layout :
   const Layout = () => {

@@ -15,7 +15,7 @@ const Layout = () => {
   return (
     <div>
       <NavBar />
-      <div style={{ dispaly: "flex" }}>
+      <div style={{ display:"flex" }}>
         <LeftBar />
         <Outlet />
         <RightBar/>
@@ -24,33 +24,35 @@ const Layout = () => {
   )
 }
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Layout />,
-    children: [
-      {
-        path: '/',
-        element: <Home/>
-      },
-      {
-        path: '/profile/:userId',
-        element:<Profile/>
-      }
-    ]
-  },
-  {
-    path: "/login",
-    element: <Login/>,
-  },
-  {
-    path: "/",
-    element: <Home/>
-  }
-]);
+
 
 function App() {
 
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Layout />,
+      children: [
+        {
+          path: '/',
+          element: <Home/>
+        },
+        {
+          path: '/profile/:userId',
+          element:<Profile/>
+        }
+      ]
+    },
+    {
+      path: "/login",
+      element: <Login/>,
+    },
+    {
+      path: "/",
+      element: <Home/>
+    }
+  ]);
+  
   return (
     <div className="App">
       <RouterProvider router={router} />

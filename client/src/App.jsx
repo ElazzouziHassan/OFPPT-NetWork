@@ -7,15 +7,16 @@ import LeftBar from './components/left-bar/LeftBar'
 import RightBar from './components/right-bar/RightBar'
 import {
   createBrowserRouter,
+  Navigate,
   Outlet,
   RouterProvider,
 } from "react-router-dom";
 
 
-
-
-
 function App() {
+
+  // fake authenticated user :
+  const currentUser = false;
 
   // Main Layout :
   const Layout = () => {
@@ -31,6 +32,13 @@ function App() {
     )
   }
 
+  // this function to protect our routes :
+  const ProtectedRoute = ({ children }) => {
+    if (!currentUser) {
+      return <Navigate to="/login"/>
+    }
+    return children
+  }
   // Browser Router :
   const router = createBrowserRouter([
     {

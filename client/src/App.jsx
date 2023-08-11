@@ -11,23 +11,27 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-const Layout = () => {
-  return (
-    <div>
-      <NavBar />
-      <div style={{ display:"flex" }}>
-        <LeftBar />
-        <Outlet />
-        <RightBar/>
-      </div>
-    </div>
-  )
-}
+
 
 
 
 function App() {
 
+  // Main Layout :
+  const Layout = () => {
+    return (
+      <div>
+        <NavBar />
+        <div style={{ display:"flex" }}>
+          <LeftBar />
+          <Outlet />
+          <RightBar/>
+        </div>
+      </div>
+    )
+  }
+
+  // Browser Router :
   const router = createBrowserRouter([
     {
       path: '/',
@@ -52,7 +56,7 @@ function App() {
       element: <Home/>
     }
   ]);
-  
+
   return (
     <div className="App">
       <RouterProvider router={router} />

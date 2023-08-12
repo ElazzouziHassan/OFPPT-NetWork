@@ -6,6 +6,7 @@
   height: 5vh;
   border-bottom: solid 1px lightgray;
   .left{
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -13,6 +14,7 @@
       font-weight: bold;
       font-size: 20px;
       color: darkblue;
+      cursor: pointer;
     }
     .search{
       display: flex;
@@ -21,25 +23,39 @@
       border: solid 1px lightgray;
       border-radius: 5px;
       padding: 5px;
+      cursor: pointer;
       input{
         border: none;
         width: 500px;
       }
-     
     }
   }
 
   .right{
+    cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     .user{
-
+      cursor: pointer;
       img{
         width: 30px;
         height: 30px;
         border-radius: 50%;
         object-fit: cover;
+      }
+      .dorp-down-menu{
+        
+        ul{
+
+          li{
+
+          }
+          .dark-mode{
+            display: flex;
+            align-items: center;
+          }
+        }
       }
     }
   }

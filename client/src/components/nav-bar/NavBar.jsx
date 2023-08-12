@@ -17,7 +17,7 @@ function NavBar() {
         <Link to="/" style={{ textDecoration:"none" }}>
           <span>OFPPT NetWork</span>
         </Link>
-        <OtherHousesOutlinedIcon />
+        <Link to='/'><OtherHousesOutlinedIcon /></Link>
         <PeopleAltOutlinedIcon />
         <div className="search">
           <SearchOutlinedIcon />
@@ -30,7 +30,16 @@ function NavBar() {
         <BookmarkBorderOutlinedIcon />
         <div className="user">
           <img src="#" alt="user" />
+          {/* <div className="dorp-down-menu">
+            <ul>
+              <Link to='/profile/1'><li>Elazzouzi H</li></Link>
+              <li>Dark Mode</li>
+              <hr />
+              <li>Logout</li>
+            </ul>
+          </div> */}
         </div>
+        
       </div>
     </div>
   )

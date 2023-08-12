@@ -1,12 +1,15 @@
 .nav-bar{
-
+  display: flex;
+  align-items: center;
   .left{
-
+    display: flex;
+    align-items: center;
     span{
 
     }
     .search{
-
+      display: flex;
+      align-items: center;
       input{
 
       }
@@ -14,11 +17,12 @@
   }
 
   .right{
-
+    display: flex;
+    align-items: center;
     .user{
 
       img{
-        
+
       }
     }
   }

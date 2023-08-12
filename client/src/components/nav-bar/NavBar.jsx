@@ -19,7 +19,7 @@ function NavBar() {
         </Link>
         <OtherHousesOutlinedIcon />
         <PeopleAltOutlinedIcon />
-        <div className="serch">
+        <div className="search">
           <SearchOutlinedIcon />
           <input type="text" placeholder="Search.." />
         </div> 

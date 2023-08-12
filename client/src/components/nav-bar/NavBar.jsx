@@ -32,7 +32,7 @@ function NavBar() {
           <img src="#" alt="user" />
           {/* <div className="dorp-down-menu">
             <ul>
-              <Link to='/profile/1'><li>Elazzouzi H</li></Link>
+              <Link to='/profile/1'><li>User</li></Link>
               <li>Dark Mode</li>
               <hr />
               <li>Logout</li>

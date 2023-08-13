@@ -1,16 +1,30 @@
 .left-bar{
 
   .container{
-
+    padding: 20px;
     .menu{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
       .user{
-
-        img{}
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img{
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
         span{}
       }
       .item{
-      
-        img{}
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img{
+          width: 30px;
+        }
         span{}
       }
     }

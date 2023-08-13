@@ -1,12 +1,20 @@
 .left-bar{
-
+  flex: 2;
   .container{
     padding: 20px;
+    hr{
+      margin: 20px 0;
+      border: none;
+      height: 0.7px;
+      background-color: lightgray;
+    }
     .menu{
       display: flex;
       flex-direction: column;
       gap: 15px;
-      margin-top: 5px;
+      span{
+        font-size: 12px;
+      }
       .user{
         display: flex;
         align-items: center;
@@ -17,7 +25,9 @@
           border-radius: 50%;
           object-fit: cover;
         }
-        span{}
+        span{
+          font-size: 18px;
+        }
       }
       .item{
         display: flex;
@@ -26,12 +36,13 @@
         img{
           width: 30px;
         }
-        span{}
+        span{
+          font-size: 15px;
+        }
       }
 
     }
     .footer{
-      margin-top: 5px;
       span{
         font-style: italic;
       }

@@ -20,7 +20,7 @@ function LeftBar() {
             <span>Friends</span>
           </div>
           <div className="item">
-            <img src="#" alt="Messages" />
+            <img src="#" alt="messages" />
             <span>Messages</span>
           </div>
         </div>
@@ -28,19 +28,19 @@ function LeftBar() {
         <div className="menu">
           <span>Others</span>
           <div className="item">
-            <img src="#" alt="Messages" />
-            <span>Messages</span>
+            <img src="#" alt="adverts" />
+            <span>Adverts</span>
           </div>
           <div className="item">
-            <img src="#" alt="Messages" />
-            <span>Messages</span>
+            <img src="#" alt="favorites" />
+            <span>Favorites</span>
           </div>
         </div>
         {/* FOOTER */}
         <hr />
         <div className="footer">
-          <span>OFPPT NETWORK @2023</span>
-          <p>ALL RIGHTS ARE RESERVED.</p>
+          <span>OFPPT NetWork @2023</span>
+          <p>all rights are reserved</p>
         </div>
 
       </div>

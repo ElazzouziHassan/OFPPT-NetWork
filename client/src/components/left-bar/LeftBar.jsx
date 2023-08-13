@@ -24,22 +24,7 @@ function LeftBar() {
             <span>Messages</span>
           </div>
         </div>
-        <hr />
-        <span>others</span>
-        <div className="others">
-          <div className="item">
-            <img src="#" alt="adverts" />
-            <span>adverts</span>
-          </div>
-          <div className="item">
-            <img src="#" alt="favorites" />
-            <span>favorites</span>
-          </div>
-          <div className="item">
-            <img src="#" alt="Messages" />
-            <span>Messages</span>
-          </div>
-        </div>
+        {/* FOOTER */}
         <hr />
         <div className="footer">
           <span>OFPPT NETWORK @2023</span>

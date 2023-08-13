@@ -4,7 +4,9 @@ import React from 'react'
 
 function RightBar() {
   return (
-    <div>RightBar</div>
+    <div className="right-bar">
+      right bar
+    </div>
   )
 }
 

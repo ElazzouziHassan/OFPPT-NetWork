@@ -24,6 +24,18 @@ function LeftBar() {
             <span>Messages</span>
           </div>
         </div>
+        <hr />
+        <div className="menu">
+          <span>Others</span>
+          <div className="item">
+            <img src="#" alt="Messages" />
+            <span>Messages</span>
+          </div>
+          <div className="item">
+            <img src="#" alt="Messages" />
+            <span>Messages</span>
+          </div>
+        </div>
         {/* FOOTER */}
         <hr />
         <div className="footer">

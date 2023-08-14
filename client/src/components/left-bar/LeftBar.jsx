@@ -1,6 +1,10 @@
 import "./leftbar.scss";
-
 import React from 'react'
+import Home from "../../assets/icons/home.svg"
+import Favorites from "../../assets/icons/bookmark.svg"
+import Messages from "../../assets/icons/envelope.svg"
+import Advert from "../../assets/icons/megaphone.svg"
+import Friends from "../../assets/icons/users.svg"
 
 function LeftBar() {
   return (
@@ -12,15 +16,15 @@ function LeftBar() {
             <span>User</span>
           </div>
           <div className="item">
-            <img src="#" alt="Home" />
+            <img src={Home} alt="Home" />
             <span>Home</span>
           </div>
           <div className="item">
-            <img src="#" alt="Friends" />
+            <img src={Friends} alt="Friends" />
             <span>Friends</span>
           </div>
           <div className="item">
-            <img src="#" alt="messages" />
+            <img src={Messages} alt="messages" />
             <span>Messages</span>
           </div>
         </div>
@@ -28,11 +32,11 @@ function LeftBar() {
         <div className="menu">
           <span>Others</span>
           <div className="item">
-            <img src="#" alt="adverts" />
+            <img src={Advert} alt="adverts" />
             <span>Adverts</span>
           </div>
           <div className="item">
-            <img src="#" alt="favorites" />
+            <img src={Favorites} alt="favorites" />
             <span>Favorites</span>
           </div>
         </div>

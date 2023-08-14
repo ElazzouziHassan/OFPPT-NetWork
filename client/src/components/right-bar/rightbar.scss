@@ -1,3 +1,10 @@
 .right-bar{
   flex: 3;
+  position: sticky;
+  top: 8vh;
+  height: calc(100vh - 5vh);
+  overflow: scroll;
+  &::-webkit-scrollbar{
+    display: none;
+  }
 }

@@ -1,4 +1,5 @@
 import "./navbar.scss";
+import User from "../../assets/user.jpg"
 import OtherHousesOutlinedIcon from '@mui/icons-material/OtherHousesOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
@@ -29,15 +30,8 @@ function NavBar() {
         <EmailOutlinedIcon/>
         <BookmarkBorderOutlinedIcon />
         <div className="user">
-          <img src="#" alt="user" />
-          {/* <div className="dorp-down-menu">
-            <ul>
-              <Link to='/profile/1'><li>User</li></Link>
-              <li>Dark Mode</li>
-              <hr />
-              <li>Logout</li>
-            </ul>
-          </div> */}
+          <img src={User} alt="user" />
+          
         </div>
         
       </div>

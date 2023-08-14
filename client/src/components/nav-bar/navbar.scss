@@ -5,6 +5,9 @@
   padding: 10px 20px;
   height: 5vh;
   border-bottom: solid 1px lightgray;
+  position: sticky;
+  top: 0;
+  background-color: white;
   .left{
     cursor: pointer;
     display: flex;

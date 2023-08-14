@@ -5,6 +5,7 @@ import Favorites from "../../assets/icons/bookmark.svg"
 import Messages from "../../assets/icons/envelope.svg"
 import Advert from "../../assets/icons/megaphone.svg"
 import Friends from "../../assets/icons/users.svg"
+import User from "../../assets/user.jpg"
 
 function LeftBar() {
   return (
@@ -12,8 +13,8 @@ function LeftBar() {
       <div className="container">
         <div className="menu">
           <div className="user">
-            <img src="#" alt="user" />
-            <span>User</span>
+            <img src={User} alt="user" />
+            <span>Jhon Doe </span>
           </div>
           <div className="item">
             <img src={Home} alt="Home" />

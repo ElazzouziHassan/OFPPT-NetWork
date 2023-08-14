@@ -37,11 +37,12 @@
         }
       }
       .item{
+        cursor: pointer;
         display: flex;
         align-items: center;
         gap: 10px;
         img{
-          width: 30px;
+          width: 25px;
         }
         span{
           font-size: 15px;

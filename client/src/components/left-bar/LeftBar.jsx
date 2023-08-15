@@ -1,11 +1,11 @@
 import "./leftbar.scss";
 import React from 'react'
-import Home from "../../assets/icons/home.svg"
-import Favorites from "../../assets/icons/bookmark.svg"
-import Messages from "../../assets/icons/envelope.svg"
-import Advert from "../../assets/icons/megaphone.svg"
-import Friends from "../../assets/icons/users.svg"
-import User from "../../assets/user.jpg"
+import Home from "../../assets/icons/home.gif"
+import Favorites from "../../assets/icons/favorites.gif"
+import Messages from "../../assets/icons/chat.gif"
+import Advert from "../../assets/icons/note.gif"
+import Friends from "../../assets/icons/friends.gif"
+import User from "../../assets/user.gif"
 import Verify from '../../assets/icons/verify.png'
 
 function LeftBar() {

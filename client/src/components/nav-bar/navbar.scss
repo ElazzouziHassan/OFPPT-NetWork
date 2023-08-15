@@ -54,19 +54,26 @@
       right: 5px;
       width: 200px;
       .sub-menu{
-        cursor: pointer;
-        .user{
+        background-color: aliceblue;
+        padding: 20px;
+        margin: .5px 5px;
+        border-radius: 10px;
+        .user-info{
           display: flex;
           align-items: center;
           img{
-
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
           }
           span{
-
+            font-weight: 800;
           }
         }
         hr{
-
+          margin: 5px 2px;
         }
         .menu{
           span{

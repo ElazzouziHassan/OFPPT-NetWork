@@ -21,12 +21,6 @@ function NavBar() {
   const handleClick = event => {
     setIsActive(current => !current);
   };
-  // toggle menu:--------------------------------------------
-  let dropDownMenu = document.getElementById('drop-down-menu')
-  function toggleMenu() {
-    dropDownMenu.classList.toggle('open-menu')
-  }
-  // ----------------------------------------------------------
   return (
     <div className="nav-bar">
       <div className="left">

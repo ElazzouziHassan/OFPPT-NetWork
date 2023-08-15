@@ -4,6 +4,7 @@ import OtherHousesOutlinedIcon from '@mui/icons-material/OtherHousesOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
+import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
@@ -31,9 +32,21 @@ function NavBar() {
         <BookmarkBorderOutlinedIcon />
         <div className="user">
           <img src={User} alt="user" />
-          
         </div>
-        
+        <div className="sub-menu-wrap">
+          <div className="sub-menu">
+            <div className="user">
+              <img src={User} alt="user" />
+              <span>Jhon Doe</span>
+            </div>
+            <hr />
+            <div className="menu">
+              <span><DarkModeOutlinedIcon /> Dark Mode</span>
+              <span><LogoutOutlinedIcon/> Logout</span>
+            </div>
+
+          </div>
+        </div>
       </div>
     </div>
   )

@@ -46,8 +46,35 @@
         height: 35px;
         border-radius: 50%;
         object-fit: cover;
+      } 
+    }
+    .sub-menu-wrap{
+      position: absolute;
+      top: 10vh;
+      right: 5px;
+      width: 200px;
+      .sub-menu{
+        cursor: pointer;
+        .user{
+          display: flex;
+          align-items: center;
+          img{
+
+          }
+          span{
+
+          }
+        }
+        hr{
+
+        }
+        .menu{
+          span{
+            display: flex;
+            align-items: center;
+          }
+        }
       }
-      
     }
   }
 }

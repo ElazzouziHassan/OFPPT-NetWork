@@ -6,6 +6,7 @@ import Messages from "../../assets/icons/envelope.svg"
 import Advert from "../../assets/icons/megaphone.svg"
 import Friends from "../../assets/icons/users.svg"
 import User from "../../assets/user.jpg"
+import Verify from '../../assets/icons/verify.png'
 
 function LeftBar() {
   return (
@@ -15,6 +16,7 @@ function LeftBar() {
           <div className="user">
             <img src={User} alt="user" />
             <span>Jhon Doe </span>
+            <img src={Verify} className="verify"/>
           </div>
           <div className="item">
             <img src={Home} alt="Home" />

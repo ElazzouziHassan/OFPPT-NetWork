@@ -32,8 +32,13 @@
           border-radius: 50%;
           object-fit: cover;
         }
+        .verify{
+          width: 20px;
+          height: 20px;
+        }
         span{
           font-size: 18px;
+          font-weight: 700;
         }
       }
       .item{

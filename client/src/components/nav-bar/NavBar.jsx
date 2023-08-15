@@ -12,6 +12,8 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
 import Arrow from '../../assets/icons/arrow.svg'
+
+
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -45,7 +47,8 @@ function NavBar() {
           <div className="sub-menu">
             <div className="user-info">
               <img src={User} alt="user" />
-              <span>Jhon Doe</span>
+              <span>Jhon Doe </span>
+              
             </div>
             <hr />
             <a href="#" className="sub-menu-link">

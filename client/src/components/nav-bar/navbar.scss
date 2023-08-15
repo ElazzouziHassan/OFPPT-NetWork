@@ -78,17 +78,31 @@
           height: 1px;
           width: 100%;
           background-color: rgb(7, 89, 116);
-          margin: 5px 2px;
+          margin: 15px 0 10px;
         }
-        .menu{
-          
-          span{
+        .sub-menu-link{
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          margin: 3px 0;
+          padding: 5px 0;
+          text-decoration: none;
+          color: black;
+          p{
             display: flex;
             align-items: center;
-            .icon{
-              margin-right: 15px;
+            margin: 0 5px 0 15px;
+            img{
+              width: 15px;
             }
           }
+          span{
+            font-weight: bolder;
+          }
+        }
+        .sub-menu-logout{
+          margin: 0 0;
+          padding: 0 0;
         }
       }
     }

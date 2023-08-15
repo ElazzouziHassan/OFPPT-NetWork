@@ -4,11 +4,14 @@ import OtherHousesOutlinedIcon from '@mui/icons-material/OtherHousesOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
+import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
+import PrivacyTipOutlinedIcon from '@mui/icons-material/PrivacyTipOutlined';
+import ManageHistoryOutlinedIcon from '@mui/icons-material/ManageHistoryOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
-
+import Arrow from '../../assets/icons/arrow.svg'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -40,10 +43,23 @@ function NavBar() {
               <span>Jhon Doe</span>
             </div>
             <hr />
-            <div className="menu">
-              <span><DarkModeOutlinedIcon className="icon"/> Dark Mode</span>
-              <span><LogoutOutlinedIcon className="icon"/> Logout</span>
-            </div>
+            <a href="#" className="sub-menu-link">
+              <ManageHistoryOutlinedIcon className="icon" />
+              <p>Settings<img src={Arrow}  /></p>
+            </a>
+            <a href="#" className="sub-menu-link">
+              <HelpOutlineOutlinedIcon className="icon" />
+              <p>Support <img src={Arrow}  /></p>
+            </a>
+            <a href="#" className="sub-menu-link">
+              <DarkModeOutlinedIcon className="icon" />
+              <p>Dark Mode <img src={Arrow}  /></p>
+            </a>
+            <hr />
+            <a href="#" className="sub-menu-link sub-menu-logout">
+              <LogoutOutlinedIcon className="icon"/>
+              <p>Logout <img src={Arrow}  /></p>
+            </a>
 
           </div>
         </div>

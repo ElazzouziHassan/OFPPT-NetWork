@@ -70,15 +70,24 @@
           }
           span{
             font-weight: 800;
+            font-size: large;
           }
         }
         hr{
+          border: 0;
+          height: 1px;
+          width: 100%;
+          background-color: rgb(7, 89, 116);
           margin: 5px 2px;
         }
         .menu{
+          
           span{
             display: flex;
             align-items: center;
+            .icon{
+              margin-right: 15px;
+            }
           }
         }
       }

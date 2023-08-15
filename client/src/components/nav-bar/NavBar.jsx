@@ -41,8 +41,8 @@ function NavBar() {
             </div>
             <hr />
             <div className="menu">
-              <span><DarkModeOutlinedIcon /> Dark Mode</span>
-              <span><LogoutOutlinedIcon/> Logout</span>
+              <span><DarkModeOutlinedIcon className="icon"/> Dark Mode</span>
+              <span><LogoutOutlinedIcon className="icon"/> Logout</span>
             </div>
 
           </div>

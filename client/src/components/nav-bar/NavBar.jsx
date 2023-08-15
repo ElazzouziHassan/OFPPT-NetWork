@@ -45,20 +45,24 @@ function NavBar() {
             <hr />
             <a href="#" className="sub-menu-link">
               <ManageHistoryOutlinedIcon className="icon" />
-              <p>Settings<img src={Arrow}  /></p>
+              <p>Settings</p>
+              <img src={Arrow}  />
             </a>
             <a href="#" className="sub-menu-link">
               <HelpOutlineOutlinedIcon className="icon" />
-              <p>Support <img src={Arrow}  /></p>
+              <p>Support </p>
+              <img src={Arrow}  />
             </a>
             <a href="#" className="sub-menu-link">
               <DarkModeOutlinedIcon className="icon" />
-              <p>Dark Mode <img src={Arrow}  /></p>
+              <p>Dark Mode </p>
+              <img src={Arrow}  />
             </a>
             <hr />
             <a href="#" className="sub-menu-link sub-menu-logout">
               <LogoutOutlinedIcon className="icon"/>
-              <p>Logout <img src={Arrow}  /></p>
+              <p>Logout</p>
+              <img src={Arrow}  />
             </a>
 
           </div>

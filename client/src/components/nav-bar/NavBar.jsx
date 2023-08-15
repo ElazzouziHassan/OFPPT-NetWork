@@ -1,4 +1,5 @@
 import "./navbar.scss";
+import {useState} from 'react';
 import User from "../../assets/user.jpg"
 import OtherHousesOutlinedIcon from '@mui/icons-material/OtherHousesOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
@@ -15,6 +16,17 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function NavBar() {
+
+  const [isActive, setIsActive] = useState(false);
+  const handleClick = event => {
+    setIsActive(current => !current);
+  };
+  // toggle menu:--------------------------------------------
+  let dropDownMenu = document.getElementById('drop-down-menu')
+  function toggleMenu() {
+    dropDownMenu.classList.toggle('open-menu')
+  }
+  // ----------------------------------------------------------
   return (
     <div className="nav-bar">
       <div className="left">
@@ -33,9 +45,9 @@ function NavBar() {
         <EmailOutlinedIcon/>
         <BookmarkBorderOutlinedIcon />
         <div className="user">
-          <img src={User} alt="user" />
+          <img src={User} alt="user" onClick={handleClick} />
         </div>
-        <div className="sub-menu-wrap">
+        <div className={isActive ? 'sub-menu-wrap' : 'sub-menu-wrap open-menu'} id="drop-down-menu">
           <div className="sub-menu">
             <div className="user-info">
               <img src={User} alt="user" />

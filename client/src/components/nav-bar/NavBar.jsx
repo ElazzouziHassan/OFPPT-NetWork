@@ -1,6 +1,6 @@
 import "./navbar.scss";
 import {useState} from 'react';
-import User from "../../assets/user.jpg"
+import User from "../../assets/user.gif"
 import OtherHousesOutlinedIcon from '@mui/icons-material/OtherHousesOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';

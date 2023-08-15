@@ -5,8 +5,7 @@ import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
-import PrivacyTipOutlinedIcon from '@mui/icons-material/PrivacyTipOutlined';
-import ManageHistoryOutlinedIcon from '@mui/icons-material/ManageHistoryOutlined';
+import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
@@ -44,7 +43,7 @@ function NavBar() {
             </div>
             <hr />
             <a href="#" className="sub-menu-link">
-              <ManageHistoryOutlinedIcon className="icon" />
+              <SettingsOutlinedIcon className="icon" />
               <p>Settings</p>
               <img src={Arrow}  />
             </a>

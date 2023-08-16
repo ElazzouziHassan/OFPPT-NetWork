@@ -23,6 +23,9 @@ function NavBar() {
   const handleClick = event => {
     setIsActive(current => !current);
   };
+  const handleLogout = () => {
+    console.log('logout')
+  }
   return (
     <div className="nav-bar">
       <div className="left">
@@ -74,7 +77,7 @@ function NavBar() {
               <img src={Arrow}  />
             </a>
             <hr />
-            <a href="#" className="sub-menu-link sub-menu-logout">
+            <a href="#" className="sub-menu-link sub-menu-logout" onClick={handleLogout}>
               <LogoutOutlinedIcon className="icon"/>
               <p>Logout</p>
               <img src={Arrow}  />

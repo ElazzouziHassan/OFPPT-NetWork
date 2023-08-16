@@ -5,7 +5,7 @@ import React from 'react'
 function RightBar() {
   return (
     <div className="right-bar">
-      right bar
+      <h1>right bar right bar right bar</h1>
     </div>
   )
 }

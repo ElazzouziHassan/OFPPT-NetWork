@@ -9,6 +9,9 @@ import User from "../../assets/user.gif"
 import Verify from '../../assets/icons/verify.png'
 
 function LeftBar() {
+  // date:---------------------------
+  const year = new Date().getFullYear()
+  // --------------------------------
   return (
     <div className="left-bar">
       <div className="container">
@@ -46,10 +49,9 @@ function LeftBar() {
         {/* FOOTER */}
         <hr />
         <div className="footer">
-          <span>OFPPT NetWork @2023</span>
+          <span>OFPPT NetWork &copy;{ year }</span>
           <p>all rights are reserved</p>
         </div>
-
       </div>
     </div>
   )

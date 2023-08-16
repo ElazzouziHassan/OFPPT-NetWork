@@ -4,10 +4,15 @@
   justify-content: space-between;
   padding: 10px 20px;
   height: 5vh;
-  border-bottom: solid 1px rgb(94, 5, 150);
+  border-bottom: solid 1px rgb(236, 91, 38);
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  .menu-icons{
+    color: rgb(134, 137, 148);
+    width: 28px;
+    height: 28px;
+  }
   .left{
     display: flex;
     align-items: center;
@@ -15,8 +20,16 @@
       span{
       font-weight: bold;
       font-size: 20px;
-      color: rgb(4, 38, 210);
       cursor: pointer;
+    }
+    .span-1{
+      color: rgb(0, 134, 75);
+    }
+    .span-2{
+      color:rgb(189, 193, 201);
+    }
+    .span-3{
+      color: rgb(0, 89, 161);
     }
     }
     .left-menu{
@@ -25,12 +38,10 @@
       display: flex;
       align-items: center;
       gap: 30px;
-
     }
     display: flex;
     align-items: center;
     gap: 30px;
-    
     .search{
       display: flex;
       align-items: center;
@@ -43,30 +54,16 @@
         width: 500px;
       }
       input[type="text"] {
-        border: 1px solid #d1d1d1;
         font: bold 12px Arial,Helvetica,Sans-serif;
-        color: #5c0f8b;
+        color: #161517;
         width: 150px;
         padding: 6px 15px 6px 35px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        border-radius: 20px;
-        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
-        -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
-        -webkit-transition: all 0.7s ease 0s;
-        -moz-transition: all 0.7s ease 0s;
-        -o-transition: all 0.7s ease 0s;
-        transition: all 0.7s ease 0s;
       }
       input[type="text"]:focus {
-        width: 200px;
-        font-size: large;
+        color: #5c0f8b;
         }
     }
   }
-
   .right{
     cursor: pointer;
     display: flex;
@@ -109,8 +106,7 @@
             width: 100%;
             font-weight: 800;
             font-size: large;
-          }
-          
+          } 
         }
         hr{
           border: 0;
@@ -130,13 +126,11 @@
             display: flex;
             align-items: center;
             margin: 0 5px 0 15px;
-            width: 100%;
-            
+            width: 100%;  
           }
           img{
               width: 15px;
           }
-          
           .icon{
             width: 20px;
             height: 20px;

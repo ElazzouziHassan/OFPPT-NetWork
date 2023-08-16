@@ -28,12 +28,14 @@ function NavBar() {
       <div className="left">
         <div className="logo">
           <Link to="/" style={{ textDecoration:"none" }}>
-            <span>OFPPT NetWork</span>
+            <span className="span-1">OFPPT </span>
+            <span className="span-2">Net</span>
+            <span className="span-3">Work</span>
           </Link>
         </div>
         <div className="left-menu">
-          <Link to='/'><OtherHousesOutlinedIcon /></Link>
-          <PeopleAltOutlinedIcon />
+          <Link to='/'><OtherHousesOutlinedIcon  className="menu-icons"/></Link>
+          <PeopleAltOutlinedIcon  className="menu-icons"/>
           <div className="search">
             <SearchOutlinedIcon />
             <span>|</span>
@@ -42,9 +44,9 @@ function NavBar() {
         </div>
       </div>
       <div className="right">
-        <NotificationsNoneOutlinedIcon/>
-        <EmailOutlinedIcon/>
-        <BookmarkBorderOutlinedIcon />
+        <NotificationsNoneOutlinedIcon className="menu-icons"/>
+        <EmailOutlinedIcon className="menu-icons"/>
+        <BookmarkBorderOutlinedIcon  className="menu-icons"/>
         <div className="user">
           <img src={User} alt="user" onClick={handleClick} />
         </div>

@@ -49,12 +49,15 @@
       border: solid 1px lightgray;
       border-radius: 5px;
       padding: 5px;
+      .search-icon{
+        color: rgb(134, 137, 148);
+      }
       input{
         border: none;
         width: 500px;
       }
       input[type="text"] {
-        font: bold 12px Arial,Helvetica,Sans-serif;
+        font: bold 14px Arial,Helvetica,Sans-serif;
         color: #161517;
         width: 150px;
         padding: 6px 15px 6px 35px;

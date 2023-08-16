@@ -37,7 +37,7 @@ function NavBar() {
           <Link to='/'><OtherHousesOutlinedIcon  className="menu-icons"/></Link>
           <PeopleAltOutlinedIcon  className="menu-icons"/>
           <div className="search">
-            <SearchOutlinedIcon />
+            <SearchOutlinedIcon className="search-icon"/>
             <span>|</span>
             <input type="text" placeholder="Search.." />
           </div> 

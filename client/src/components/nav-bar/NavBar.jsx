@@ -26,15 +26,20 @@ function NavBar() {
   return (
     <div className="nav-bar">
       <div className="left">
-        <Link to="/" style={{ textDecoration:"none" }}>
-          <span>OFPPT NetWork</span>
-        </Link>
-        <Link to='/'><OtherHousesOutlinedIcon /></Link>
-        <PeopleAltOutlinedIcon />
-        <div className="search">
-          <SearchOutlinedIcon />
-          <input type="text" placeholder="Search.." />
-        </div> 
+        <div className="logo">
+          <Link to="/" style={{ textDecoration:"none" }}>
+            <span>OFPPT NetWork</span>
+          </Link>
+        </div>
+        <div className="left-menu">
+          <Link to='/'><OtherHousesOutlinedIcon /></Link>
+          <PeopleAltOutlinedIcon />
+          <div className="search">
+            <SearchOutlinedIcon />
+            <span>|</span>
+            <input type="text" placeholder="Search.." />
+          </div> 
+        </div>
       </div>
       <div className="right">
         <NotificationsNoneOutlinedIcon/>

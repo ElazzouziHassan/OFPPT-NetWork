@@ -1,4 +1,5 @@
 import './App.css'
+import './style.scss'
 import Login from './pages/auth/login/login'
 import Home from './pages/home/home'
 import Profile from './pages/profile/Profile'
@@ -15,7 +16,7 @@ function App() {
   // Main Layout :
   const Layout = () => {
     return (
-      <div>
+      <div className='theme-dark'>
         <NavBar />
         <div style={{ display:"flex" }}>
           <LeftBar />

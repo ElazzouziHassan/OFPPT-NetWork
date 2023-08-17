@@ -23,7 +23,7 @@ function RightBar() {
           <div className="user">
             <div className="user-info">
               <img src="#" alt="user" />
-              <span>Jane Doe</span>
+              <span>jammy Doe</span>
             </div>
             <div className="actions">
               <button><PersonAddAltOutlinedIcon className="icon"/></button>
@@ -33,7 +33,7 @@ function RightBar() {
           <div className="user">
             <div className="user-info">
               <img src="#" alt="user" />
-              <span>Jane Doe</span>
+              <span>alina Doe</span>
             </div>
             <div className="actions">
               <button><PersonAddAltOutlinedIcon className="icon"/></button>

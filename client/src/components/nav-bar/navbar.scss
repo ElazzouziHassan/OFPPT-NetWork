@@ -1,5 +1,8 @@
+@import "../../style.scss";
+
 .nav-bar{
-  z-index: 5;
+  @include themify($themes){
+  z-index: 999;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,9 +11,9 @@
   border-bottom: solid 1px rgb(236, 91, 38);
   position: sticky;
   top: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: themed("bg");
   .menu-icons{
-    color: rgb(134, 137, 148);
+    color: themed("iconColor");
     width: 28px;
     height: 28px;
   }
@@ -47,11 +50,14 @@
       display: flex;
       align-items: center;
       gap: 10px;
-      border: solid 1px lightgray;
+      border: solid 1px themed("border");
       border-radius: 5px;
       padding: 5px;
       .search-icon{
         color: rgb(134, 137, 148);
+      }
+      span{
+        color: themed('serachSpan');
       }
       input{
         border: none;
@@ -59,13 +65,15 @@
       }
       input[type="text"] {
         font: bold 14px Arial,Helvetica,Sans-serif;
-        color: #161517;
+        color: themed("textColor");
         width: 150px;
         padding: 6px 15px 6px 35px;
+        background-color: themed('bg');
       }
       input[type="text"]:focus {
-        color: #5c0f8b;
-        }
+        color: themed("textOnFocus");
+        border: none;
+      }
     }
   }
   .right{
@@ -169,4 +177,5 @@
       max-height: 400px;
     }
   }
+}
 }

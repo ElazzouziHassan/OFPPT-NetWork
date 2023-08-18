@@ -2,17 +2,17 @@ $themes: (
   light: (
     textColor: #000,
     bg: white,
-    logo: darkblue,
     bgSoft: #f6f3f3,
     textColorSoft: #555,
     border: lightgray,
+    iconColor: rgb(134, 137, 148),
   ),
   dark: (
     textColor: whitesmoke,
     bg: #222,
-    logo: white,
     bgSoft: #333,
     textColorSoft: lightgray,
     border: #444,
+    // dm-iconColor: ,
   ),
 );

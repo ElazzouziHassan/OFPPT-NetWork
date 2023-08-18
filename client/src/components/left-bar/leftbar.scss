@@ -1,9 +1,12 @@
+@import '../../style.scss';
 .left-bar{
+  @include themify($themes) {
   flex: 2;
   position: sticky;
   top: 8vh;
   height: calc(100vh - 8vh);
   overflow: scroll;
+  background-color: themed('bg');
   &::-webkit-scrollbar{
     display: none;
   }
@@ -21,6 +24,7 @@
       gap: 15px;
       span{
         font-size: 12px;
+        color: themed('textColor');
       }
       .user{
         display: flex;
@@ -39,6 +43,7 @@
         span{
           font-size: 18px;
           font-weight: 700;
+          color: themed('textColor');
         }
       }
       .item{
@@ -51,6 +56,7 @@
         }
         span{
           font-size: 15px;
+          color: themed('textColor');
         }
       }
 
@@ -59,12 +65,13 @@
       
       span{
         font-style: italic;
-        color:rgb(96, 94, 94);
+        color: themed('textColor');
       }
       p{
         font-style: italic;
-        color:rgb(96, 94, 94);
+        color: themed('textColor');
       }
     }
+  }
   }
 }

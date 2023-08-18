@@ -8,7 +8,7 @@
   justify-content: space-between;
   padding: 10px 20px;
   height: 5vh;
-  border-bottom: solid 1px rgb(236, 91, 38);
+  border-bottom: solid 1px themed('borderBottom');
   position: sticky;
   top: 0;
   background-color: themed("bg");

@@ -62,13 +62,13 @@
       input{
         border: none;
         width: 500px;
+        background-color: transparent;
       }
       input[type="text"] {
         font: bold 14px Arial,Helvetica,Sans-serif;
         color: themed("textColor");
         width: 150px;
         padding: 6px 15px 6px 35px;
-        background-color: themed('bg');
       }
       input[type="text"]:focus {
         color: themed("textOnFocus");

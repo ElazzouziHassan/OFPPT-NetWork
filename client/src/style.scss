@@ -6,14 +6,18 @@ $themes: (
     textColorSoft: #555,
     border: lightgray,
     iconColor: rgb(134, 137, 148),
+    serachSpan: black,
+    textOnFocus: purple,
   ),
   dark: (
     textColor: whitesmoke,
-    bg: #222,
+    bg: rgb(49, 49, 49),
     bgSoft: #333,
     textColorSoft: lightgray,
     border: #444,
-    // dm-iconColor: ,
+    iconColor: rgb(141, 157, 221),
+    serachSpan:white,
+    textOnFocus: rgb(255, 255, 255),
   ),
 );
 

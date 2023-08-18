@@ -131,14 +131,22 @@
           padding: 5px 0;
           text-decoration: none;
           color: black;
+          transition: ease-out .7s;
+          &:hover img{
+            transform: translateX(5px);
+          }
+          &:hover p{
+            font-size: 17px;
+            font-weight: 400;
+          }  
           p{
             display: flex;
             align-items: center;
             margin: 0 5px 0 15px;
-            width: 100%;  
+            width: 100%;
           }
           img{
-              width: 15px;
+            width: 15px;
           }
           .icon{
             width: 20px;

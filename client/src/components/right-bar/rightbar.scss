@@ -1,10 +1,13 @@
+@import '../../style.scss';
 .right-bar{
+  @include themify($themes) {
   flex: 2.5;
   position: sticky;
   top: 8vh;
   height: calc(100vh - 8vh);
   overflow: scroll;
   z-index: 1;
+  background-color: themed('bgSoft');
   &::-webkit-scrollbar{
     display: none;
   }
@@ -96,4 +99,5 @@
       }
     }
   }
+}
 }

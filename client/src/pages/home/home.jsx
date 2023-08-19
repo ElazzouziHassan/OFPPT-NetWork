@@ -9,6 +9,13 @@ function Home() {
     <div className="home">
       <Share />
       <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
     </div>
   )
 }

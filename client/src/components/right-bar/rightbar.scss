@@ -19,8 +19,10 @@
       box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
       padding: 20px;
       margin-bottom: 20px;
+      background-color: themed('bg');
+      border-radius: 10px;
       span{
-        color: gray;
+        color: themed('textColorSoft');
       }
       .messenger{
 

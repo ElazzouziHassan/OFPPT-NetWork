@@ -1,5 +1,5 @@
 import "./navbar.scss";
-import {useState} from 'react';
+import {useContext, useState} from 'react';
 import User from "../../assets/user.gif"
 import OtherHousesOutlinedIcon from '@mui/icons-material/OtherHousesOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
@@ -11,11 +11,11 @@ import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
+import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
 import Arrow from '../../assets/icons/arrow.svg'
-
-
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { DarkModeContext } from "../../context/darkModeContext";
 
 function NavBar() {
 
@@ -23,9 +23,9 @@ function NavBar() {
   const handleClick = event => {
     setIsActive(current => !current);
   };
-  const handleLogout = () => {
-    console.log('logout')
-  }
+  
+  const { toggle, darkMode } = useContext(DarkModeContext);
+
   return (
     <div className="nav-bar">
       <div className="left">
@@ -71,13 +71,21 @@ function NavBar() {
               <p>Support </p>
               <img src={Arrow}  />
             </a>
-            <a href="#" className="sub-menu-link">
-              <DarkModeOutlinedIcon className="icon" />
-              <p>Dark Mode </p>
+            <a href="#" className="sub-menu-link" onClick={toggle}>
+              {
+                darkMode
+                  ? (<WbSunnyOutlinedIcon className="icon" />)
+                  : (<DarkModeOutlinedIcon className="icon" />)
+              }
+              <p>
+                {
+                  darkMode ? "Light Mode" : 'Dark Mode'
+                }
+              </p>
               <img src={Arrow}  />
             </a>
             <hr />
-            <a href="#" className="sub-menu-link sub-menu-logout" onClick={handleLogout}>
+            <a href="#" className="sub-menu-link sub-menu-logout" >
               <LogoutOutlinedIcon className="icon"/>
               <p>Logout</p>
               <img src={Arrow}  />

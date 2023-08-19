@@ -54,10 +54,10 @@
       border-radius: 5px;
       padding: 5px;
       .search-icon{
-        color: rgb(134, 137, 148);
+        color: themed("iconColor")
       }
       span{
-        color: themed('serachSpan');
+        color: themed('iconColor');
       }
       input{
         border: none;
@@ -66,7 +66,7 @@
       }
       input[type="text"] {
         font: bold 14px Arial,Helvetica,Sans-serif;
-        color: themed("textColor");
+        color: themed("iconColor");
         width: 150px;
         padding: 6px 15px 6px 35px;
       }
@@ -101,7 +101,7 @@
       overflow: hidden;
       transition: max-height .5s;
       .sub-menu{
-        background-color: #F5F5F5;
+        background-color: themed('bg');
         padding: 20px;
         margin: .5px 5px;
         border-radius: 10px;
@@ -119,8 +119,9 @@
             width: 100%;
             font-weight: 800;
             font-size: large;
+            color: themed('textColor');
             &:hover{
-              color: rgb(93, 8, 129);
+              color: themed('textOnHover');
             }
           } 
         }
@@ -152,9 +153,11 @@
             align-items: center;
             margin: 0 5px 0 15px;
             width: 100%;
+            color: themed('textColor');
           }
           img{
             width: 15px;
+            color: themed('textColor');
           }
           .icon{
             width: 20px;

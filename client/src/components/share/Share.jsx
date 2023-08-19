@@ -8,24 +8,7 @@ import FileUploadOutlinedIcon from '@mui/icons-material/FileUploadOutlined';
 function Share() {
   return (
     <div className="share-post">
-      <div className="top">
-        <div className="user">
-          <img src={User} alt="user" />
-        </div>
-        <div className="shared-content">
-          <input type="text" placeholder="What's on your mind !"/>
-        </div>
-      </div>
-      <hr />
-        <div className="actions">
-          <div className="left">
-            <button><FileUploadOutlinedIcon className="icon"/></button>
-            <button><AlternateEmailOutlinedIcon className="icon"/></button>
-          </div>
-          <div className="right">
-            <button><span>post</span></button>
-          </div>
-        </div>
+      <h1>Share your post</h1>
     </div>
   )
 }

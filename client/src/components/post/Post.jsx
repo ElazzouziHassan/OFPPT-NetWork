@@ -4,7 +4,9 @@ import React from 'react'
 
 function Post() {
   return (
-    <div>Post</div>
+    <div className="post">
+      <h1>New Post</h1>
+    </div>
   )
 }
 

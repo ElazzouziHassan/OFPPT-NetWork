@@ -1,10 +1,10 @@
 import "./leftbar.scss";
 import React from 'react'
-// import Home from "../../assets/icons/home.gif"
-// import Favorites from "../../assets/icons/favorites.gif"
-// import Messages from "../../assets/icons/chat.gif"
-// import Advert from "../../assets/icons/note.gif"
-// import Friends from "../../assets/icons/friends.gif"
+import OtherHousesOutlinedIcon from '@mui/icons-material/OtherHousesOutlined';
+import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
+import CampaignOutlinedIcon from '@mui/icons-material/CampaignOutlined';
 import User from "../../assets/user.gif"
 import Verify from '../../assets/icons/verify.png'
 
@@ -22,15 +22,15 @@ function LeftBar() {
             <img src={Verify} className="verify"/>
           </div>
           <div className="item">
-            <img src="#" alt="Home" />
+            <OtherHousesOutlinedIcon className="left-bar-icon"/>
             <span>Home</span>
           </div>
           <div className="item">
-            <img src='#' alt="Friends" />
+          <PeopleAltOutlinedIcon className="left-bar-icon"/>
             <span>Friends</span>
           </div>
           <div className="item">
-            <img src="#" alt="messages" />
+          <EmailOutlinedIcon className="left-bar-icon"/>
             <span>Messages</span>
           </div>
         </div>
@@ -38,11 +38,11 @@ function LeftBar() {
         <div className="menu">
           <span>Others</span>
           <div className="item">
-            <img src="#" alt="adverts" />
+          <CampaignOutlinedIcon className="left-bar-icon"/>
             <span>Adverts</span>
           </div>
           <div className="item">
-            <img src="#" alt="favorites" />
+          <BookmarkBorderOutlinedIcon className="left-bar-icon"/>
             <span>Favorites</span>
           </div>
         </div>

@@ -1,10 +1,10 @@
 import "./leftbar.scss";
 import React from 'react'
-import Home from "../../assets/icons/home.gif"
-import Favorites from "../../assets/icons/favorites.gif"
-import Messages from "../../assets/icons/chat.gif"
-import Advert from "../../assets/icons/note.gif"
-import Friends from "../../assets/icons/friends.gif"
+// import Home from "../../assets/icons/home.gif"
+// import Favorites from "../../assets/icons/favorites.gif"
+// import Messages from "../../assets/icons/chat.gif"
+// import Advert from "../../assets/icons/note.gif"
+// import Friends from "../../assets/icons/friends.gif"
 import User from "../../assets/user.gif"
 import Verify from '../../assets/icons/verify.png'
 
@@ -22,15 +22,15 @@ function LeftBar() {
             <img src={Verify} className="verify"/>
           </div>
           <div className="item">
-            <img src={Home} alt="Home" />
+            <img src="#" alt="Home" />
             <span>Home</span>
           </div>
           <div className="item">
-            <img src={Friends} alt="Friends" />
+            <img src='#' alt="Friends" />
             <span>Friends</span>
           </div>
           <div className="item">
-            <img src={Messages} alt="messages" />
+            <img src="#" alt="messages" />
             <span>Messages</span>
           </div>
         </div>
@@ -38,11 +38,11 @@ function LeftBar() {
         <div className="menu">
           <span>Others</span>
           <div className="item">
-            <img src={Advert} alt="adverts" />
+            <img src="#" alt="adverts" />
             <span>Adverts</span>
           </div>
           <div className="item">
-            <img src={Favorites} alt="favorites" />
+            <img src="#" alt="favorites" />
             <span>Favorites</span>
           </div>
         </div>

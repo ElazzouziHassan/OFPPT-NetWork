@@ -1,9 +1,10 @@
 import "./share.scss";
 import User from '../../assets/user.gif'
+import DriveFolderUploadOutlinedIcon from '@mui/icons-material/DriveFolderUploadOutlined';
+import TagOutlinedIcon from '@mui/icons-material/TagOutlined';
+import EmojiEmotionsOutlinedIcon from '@mui/icons-material/EmojiEmotionsOutlined';
 
 import React from 'react'
-import AlternateEmailOutlinedIcon from '@mui/icons-material/AlternateEmailOutlined';
-import FileUploadOutlinedIcon from '@mui/icons-material/FileUploadOutlined';
 
 function Share() {
   return (
@@ -15,8 +16,9 @@ function Share() {
       <hr />
       <div className="actions">
         <div className="left">
-          <button>add file</button>
-          <button>tag</button>
+          <button><DriveFolderUploadOutlinedIcon className="icon"/></button>
+          <button><TagOutlinedIcon className="icon"/></button>
+          <button><EmojiEmotionsOutlinedIcon className="icon"/></button>
         </div>
         <div className="right">
           <button>post</button>

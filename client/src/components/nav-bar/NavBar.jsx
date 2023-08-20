@@ -58,7 +58,6 @@ function NavBar() {
             <div className="user-info">
               <img src={User} alt="user" />
               <span>Jhon Doe </span>
-              
             </div>
             <hr />
             <a href="#" className="sub-menu-link">

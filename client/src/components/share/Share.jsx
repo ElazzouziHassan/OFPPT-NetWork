@@ -10,7 +10,7 @@ function Share() {
   return (
     <div className="share-post">
       <div className="new-post">
-        <img src="#" alt="user" />
+        <img src={User} alt="user" />
         <input type="text" placeholder="What's on your mind !" />
       </div>
       <hr />

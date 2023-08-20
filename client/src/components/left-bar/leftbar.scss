@@ -58,14 +58,18 @@
         align-items: center;
         gap: 10px;
         transition: ease-in .4s;
-        &:hover{
-          background-color: rgb(98, 110, 110);
-          border-radius: 5px;
+        &:hover span{
+          font-size: 16px;
+          color: themed('textOnHover');
+          font-weight: bold;
         }
-        img{
-          width: 25px;
-          object-fit: contain;
-          padding: 3px;
+        &:hover .left-bar-icon{
+          color: themed('textOnFocus');
+        }
+        .left-bar-icon{
+          color: themed('iconColor');
+          width: 33px;
+          height: 33px;
         }
         span{
           font-size: 15px;

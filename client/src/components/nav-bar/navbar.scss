@@ -16,6 +16,9 @@
     color: themed("iconColor");
     width: 28px;
     height: 28px;
+    &:hover{
+      color: themed('textOnFocus');
+    }
   }
   .left{
     display: flex;

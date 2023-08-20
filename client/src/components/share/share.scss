@@ -1,19 +1,48 @@
+@import '../../style.scss';
 .share-post{
+  @include themify($themes) {
+  padding: 10px;
+  background-color: themed('bg');
+  border-radius: 10px;
+  width: 100%;
   .new-post{
+    display: flex;
+    align-items: center;
+    gap: 20px;
     img{
-
+      padding: 10px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
     }
     input{
-
+      width: 80%;
+      padding: 10px;
+      background-color: transparent;
+      border: none;
     }
   }
   hr{
-
+    margin: 10px 0;
+    border: none;
+    height: 0.7px;
+    background-color: lightgray;
   }
   .actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     .left{
+      display: flex;
+      align-items: center;
+      gap: 10px;
       button{
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        .icon{
 
+        }
       }
     }
     .right{
@@ -22,4 +51,5 @@
       }
     }
   }
+}
 }

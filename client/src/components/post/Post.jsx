@@ -37,12 +37,12 @@ function Post() {
       <hr />
       <div className="bottom">
         <div className="left">
-          <button><FavoriteBorderOutlinedIcon/></button>
-          <button><TextsmsOutlinedIcon/></button>
-          <button><BookmarkBorderOutlinedIcon/></button>
+          <button><FavoriteBorderOutlinedIcon className="icon"/></button>
+          <button><TextsmsOutlinedIcon className="icon"/></button>
+          <button><BookmarkBorderOutlinedIcon className="icon"/></button>
         </div>
         <div className="right">
-          <button><FlagCircleOutlinedIcon/></button>
+          <button><FlagCircleOutlinedIcon className="icon"/></button>
         </div>
       </div>
     </div>

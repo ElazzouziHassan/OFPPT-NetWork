@@ -34,6 +34,7 @@ function Post() {
           <span>No Media</span>
         }
       </div>
+      <hr />
       <div className="bottom">
         <div className="left">
           <button><FavoriteBorderOutlinedIcon/></button>

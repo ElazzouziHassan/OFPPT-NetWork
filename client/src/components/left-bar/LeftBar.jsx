@@ -19,7 +19,7 @@ function LeftBar() {
           <div className="user">
             <img src={User} alt="user" />
             <span>Jhon Doe </span>
-            <img src={Verify} className="verify"/>
+            <img src={Verify} className="verify" />
           </div>
           <div className="item">
             <OtherHousesOutlinedIcon className="left-bar-icon"/>

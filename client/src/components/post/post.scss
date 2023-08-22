@@ -1,9 +1,11 @@
+@import '../../style.scss';
 .post{
+  @include themify($themes) {
   margin: 20px 0;
   background-color: rgb(195, 193, 190);
   width: 100%;
   padding: 10px;
-
+  border-radius: 10px;
   .top{
     display: flex;
     align-items: center;
@@ -54,4 +56,5 @@
       }
     }
   }
+}
 }

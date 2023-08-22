@@ -44,8 +44,11 @@ function Post() {
       <hr />
       <div className="bottom">
         <div className="left">
-          <button><FavoriteBorderOutlinedIcon className="icon"/></button>
-          <button><TextsmsOutlinedIcon className="icon"/></button>
+          <span>11</span>
+          <button><FavoriteBorderOutlinedIcon className="icon" /></button>
+          <span>6</span>
+          <button><TextsmsOutlinedIcon className="icon" /></button>
+          <span>9</span>
           <button><BookmarkBorderOutlinedIcon className="icon"/></button>
         </div>
         <div className="right">

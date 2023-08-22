@@ -4,7 +4,7 @@ import React from 'react'
 
 function Post() {
   // media:----------
-  const media = false;
+  const media = true;
   // ----------------
   return (
     <div className="post">

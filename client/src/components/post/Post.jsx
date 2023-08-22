@@ -13,7 +13,10 @@ function Post() {
         <p>content</p>
         <img src="#" alt="media" />
       </div>
-      <div className="bottom">BOTTOM</div>
+      <div className="bottom">
+        <div className="left"></div>
+        <div className="right"></div>
+      </div>
     </div>
   )
 }

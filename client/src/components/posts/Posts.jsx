@@ -11,7 +11,10 @@ function Posts() {
       <Post />
       <Post/>
       <Post/>
-      <Post/>
+      <Post />
+      <div className="loading">
+        <span>Load More...</span>
+      </div>
     </div>
   )
 }

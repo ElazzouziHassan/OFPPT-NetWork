@@ -29,15 +29,26 @@
 
     }
   }
+  hr{
+    
+  }
   .bottom{
     display: flex;
     align-items: center;
     justify-content: space-between;
     .left{
-      button{}
+      button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
     }
     .right{
-      button{}
+      button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
     }
   }
 }

@@ -1,6 +1,9 @@
 import "./post.scss";
 import React from 'react'
 
+// !just for test:
+import Image from '../../assets/mediaPost.jpg'
+
 // MUI ICONS :----------------------------------------------------------------
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import TextsmsOutlinedIcon from '@mui/icons-material/TextsmsOutlined';
@@ -29,7 +32,7 @@ function Post() {
         {
           media
           ?
-          <img src="#" alt="media" />
+          <img src={Image} alt="media" />
           :
           <span>No Media</span>
         }

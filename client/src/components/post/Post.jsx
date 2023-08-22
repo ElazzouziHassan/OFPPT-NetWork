@@ -3,6 +3,9 @@ import "./post.scss";
 import React from 'react'
 
 function Post() {
+  // media:----------
+  const media = false;
+  // ----------------
   return (
     <div className="post">
       <div className="top">
@@ -15,8 +18,14 @@ function Post() {
         </div>
       </div>
       <div className="content">
-        <p>content</p>
-        <img src="#" alt="media" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        {
+          media
+          ?
+          <img src="#" alt="media" />
+          :
+          <span>No Media</span>
+        }
       </div>
       <div className="bottom">
         <div className="left"></div>

@@ -6,8 +6,13 @@ function Post() {
   return (
     <div className="post">
       <div className="top">
-        <div className="user"></div>
-        <div className="time"></div>
+        <div className="user">
+          <img src="#" alt="user" />
+          <span>Jhon Doe</span>
+        </div>
+        <div className="time">
+          <p>1 Min Ago</p>
+        </div>
       </div>
       <div className="content">
         <p>content</p>

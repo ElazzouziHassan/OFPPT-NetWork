@@ -28,8 +28,14 @@ function Post() {
         }
       </div>
       <div className="bottom">
-        <div className="left"></div>
-        <div className="right"></div>
+        <div className="left">
+          <button>Like</button>
+          <button>Comment</button>
+          <button>Favorite</button>
+        </div>
+        <div className="right">
+          <button>Repport</button>
+        </div>
       </div>
     </div>
   )

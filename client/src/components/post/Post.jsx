@@ -9,7 +9,10 @@ function Post() {
         <div className="user"></div>
         <div className="time"></div>
       </div>
-      <div className="content">CONTENT</div>
+      <div className="content">
+        <p>content</p>
+        <img src="#" alt="media" />
+      </div>
       <div className="bottom">BOTTOM</div>
     </div>
   )

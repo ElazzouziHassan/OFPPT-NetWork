@@ -1,6 +1,13 @@
 import "./post.scss";
-
 import React from 'react'
+
+// MUI ICONS :----------------------------------------------------------------
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+import TextsmsOutlinedIcon from '@mui/icons-material/TextsmsOutlined';
+import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
+import FlagCircleOutlinedIcon from '@mui/icons-material/FlagCircleOutlined';
+
+// ---------------------------------------------------------------------------
 
 function Post() {
   // media:----------
@@ -29,12 +36,12 @@ function Post() {
       </div>
       <div className="bottom">
         <div className="left">
-          <button>Like</button>
-          <button>Comment</button>
-          <button>Favorite</button>
+          <button><FavoriteBorderOutlinedIcon/></button>
+          <button><TextsmsOutlinedIcon/></button>
+          <button><BookmarkBorderOutlinedIcon/></button>
         </div>
         <div className="right">
-          <button>Repport</button>
+          <button><FlagCircleOutlinedIcon/></button>
         </div>
       </div>
     </div>

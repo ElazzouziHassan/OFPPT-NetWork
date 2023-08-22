@@ -5,7 +5,7 @@ import Post from '../post/Post'
 
 function Posts() {
   return (
-    <div className="post">
+    <div className="posts">
       <Post/>
       <Post/>
       <Post/>

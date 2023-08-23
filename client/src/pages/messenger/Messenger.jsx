@@ -3,7 +3,9 @@ import './messenger.scss'
 
 function Messenger() {
   return (
-    <div>Messenger</div>
+    <div className="messenger">
+      <h1>Messenger page</h1>
+    </div>
   )
 }
 

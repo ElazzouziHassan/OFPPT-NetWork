@@ -1,5 +1,6 @@
 import "./leftbar.scss";
 import React from 'react'
+import { Link } from 'react-router-dom';
 import OtherHousesOutlinedIcon from '@mui/icons-material/OtherHousesOutlined';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
@@ -17,8 +18,12 @@ function LeftBar() {
       <div className="container">
         <div className="menu">
           <div className="user">
-            <img src={User} alt="user" />
-            <span>Jhon Doe </span>
+            <Link to='profile/1' >
+              <img src={User} alt="user" />
+            </Link>
+            <Link to='profile/1'style={{ textDecoration:'none' }}>
+              <span>Jhon Doe </span>
+            </Link>
             <img src={Verify} className="verify" />
           </div>
           <div className="item">

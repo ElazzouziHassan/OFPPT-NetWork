@@ -1,0 +1,7 @@
+@import "../../style.scss";
+.favorites{
+  @include themify($themes){
+  height: 100vh;
+  background-color: themed('bgSoft');
+}
+}

@@ -11,7 +11,7 @@ function Share() {
     <div className="share-post">
       <div className="new-post">
         <img src={User} alt="user" />
-        <input type="text" placeholder="What's on your mind !" />
+        <input type="text" placeholder="Try to share something helpful with the community" />
       </div>
       <hr />
       <div className="actions">

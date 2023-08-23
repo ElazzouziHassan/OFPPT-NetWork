@@ -10,6 +10,8 @@ $themes: (
     textOnFocus: purple,
     textOnHover: rgb(79, 0, 113),
     borderBottom:rgb(236, 91, 38),
+    textBotton:#FAF0E6,
+    bgBotton:#5C5470,
   ),
   dark: (
     textColor: whitesmoke,
@@ -22,6 +24,8 @@ $themes: (
     textOnFocus: rgb(255, 255, 255),
     borderBottom:rgb(100, 216, 208),
     textOnHover: rgb(170, 187, 226),
+    textBotton: #352F44,
+    bgBotton:#FFF5E0,
   ),
 );
 

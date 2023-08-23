@@ -2,7 +2,9 @@ import React from 'react'
 import './favorites.scss'
 function Favorites() {
   return (
-    <div>Favorites</div>
+    <div className="favorites">
+      <h1>Favorites Page</h1>
+    </div>
   )
 }
 

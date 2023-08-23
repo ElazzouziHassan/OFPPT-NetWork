@@ -72,6 +72,8 @@
         color: themed("iconColor");
         width: 150px;
         padding: 6px 15px 6px 35px;
+        border: none;
+        outline: none;
       }
       input[type="text"]:focus {
         color: themed("textOnFocus");

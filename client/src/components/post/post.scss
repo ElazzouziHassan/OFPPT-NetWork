@@ -48,13 +48,14 @@
     padding: 10px;
     p{
       margin: 10px 0px;
+      color: themed('textColor');
     }
     img{
       border-radius: 5px;
       width: 100%;
     }
     span{
-
+      color: themed('textColor');
     }
   }
   hr{
@@ -75,6 +76,7 @@
       span{
         font-size: 20px;
         margin-bottom: 5px;
+        color: themed('textColor');
       }
       button{
         padding: 0 20px 0 0;

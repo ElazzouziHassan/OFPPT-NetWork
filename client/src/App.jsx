@@ -46,7 +46,7 @@ function App() {
     { path: '/', element: <ProtectedRoute><Layout /></ProtectedRoute>,
       children: [
         { path: '/', element: <Home/> },
-        { path: '/profile/:userId', element:<Profile/> }
+        { path: '/profile/:userId', element: <Profile/> }
       ]
     },
     { path: "/login", element: <Login/> },

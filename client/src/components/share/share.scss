@@ -36,11 +36,14 @@
       margin-left: 20px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 20px;
       button{
         border: none;
         background-color: transparent;
         cursor: pointer;
+        &:hover .icon{
+          color: themed('textOnFocus');
+        }
         .icon{
           color: themed('iconColor');
         }
@@ -53,9 +56,7 @@
         width: 50px;
         height: 25px;
         border: none;
-        // background-color: themed('textOnHover');
         border-radius: 5px;
-        // color: themed('borderBottom');
         font-weight: 600;
       }
     }

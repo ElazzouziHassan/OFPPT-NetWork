@@ -27,7 +27,7 @@ function Post() {
           <img src={Verify} className="verify" />
         </div>
         <div className="time">
-          <p>1 Min Ago</p>
+          <p>1 min ago</p>
         </div>
       </div>
       <hr />

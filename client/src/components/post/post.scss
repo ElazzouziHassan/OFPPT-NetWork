@@ -27,6 +27,9 @@
         font-size: 18px;
         font-weight: 700;
         color: themed('textColor');
+        &:hover{
+          color: themed('textOnFocus');
+        }
       }
       .verify{
         width: 20px;
@@ -36,7 +39,7 @@
     .time{
       padding: 0 10px;
       p{
-
+        color: themed('textColor');
       }
     }
   }

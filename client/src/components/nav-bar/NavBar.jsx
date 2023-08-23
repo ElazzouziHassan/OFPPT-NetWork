@@ -56,10 +56,10 @@ function NavBar() {
         <div className={isActive ? 'sub-menu-wrap' : 'sub-menu-wrap open-menu'} id="drop-down-menu">
           <div className="sub-menu">
             <div className="user-info">
-              <Link>
+              <Link to='profile/1'>
                 <img src={User} alt="user" />
               </Link>
-              <Link to='profile/1'style={{ textDecoration:'none' }}>
+              <Link to='profile/1' style={{ textDecoration:'none' }}>
                 <span>Jhon Doe </span>
               </Link>
             </div>

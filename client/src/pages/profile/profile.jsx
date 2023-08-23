@@ -1,9 +1,12 @@
 import React from 'react'
+import './profile.scss'
 
 
 function Profile() {
   return (
-    <div>Profile</div>
+    <div className="profile">
+      <h1>Profile page</h1>
+    </div>
   )
 }
 

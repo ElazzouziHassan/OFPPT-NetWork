@@ -37,8 +37,12 @@ function NavBar() {
           </Link>
         </div>
         <div className="left-menu">
-          <Link to='/'><OtherHousesOutlinedIcon  className="menu-icons"/></Link>
-          <PeopleAltOutlinedIcon  className="menu-icons"/>
+          <Link to='/'>
+            <OtherHousesOutlinedIcon className="menu-icons" />
+          </Link>
+          <Link to='/friends'>
+            <PeopleAltOutlinedIcon className="menu-icons" />
+          </Link>
           <div className="search">
             <SearchOutlinedIcon className="search-icon"/>
             <span>|</span>
@@ -47,9 +51,13 @@ function NavBar() {
         </div>
       </div>
       <div className="right">
-        <NotificationsNoneOutlinedIcon className="menu-icons"/>
-        <EmailOutlinedIcon className="menu-icons"/>
-        <BookmarkBorderOutlinedIcon  className="menu-icons"/>
+        <NotificationsNoneOutlinedIcon className="menu-icons" />
+        <Link to='/messenger'>
+          <EmailOutlinedIcon className="menu-icons" />
+        </Link>
+        <Link to='/favorites'>
+          <BookmarkBorderOutlinedIcon className="menu-icons" />
+        </Link>
         <div className="user">
           <img src={User} alt="user" onClick={handleClick} />
         </div>

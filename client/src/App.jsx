@@ -9,6 +9,9 @@ import RightBar from './components/right-bar/RightBar'
 import { createBrowserRouter, Navigate, Outlet, RouterProvider } from "react-router-dom";
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
+import Messenger from './pages/messenger/Messenger'
+import Favorites from './pages/favorites/Favorites'
+import Friends from './pages/friends/Friends'
 
 
 function App() {
@@ -46,7 +49,10 @@ function App() {
     { path: '/', element: <ProtectedRoute><Layout /></ProtectedRoute>,
       children: [
         { path: '/', element: <Home/> },
-        { path: '/profile/:userId', element: <Profile/> }
+        { path: '/profile/:userId', element: <Profile /> },
+        { path: "/messenger", element: <Messenger /> },
+        { path: "/favorites", element: <Favorites /> },
+        { path: "/friends", element: <Friends /> }
       ]
     },
     { path: "/login", element: <Login/> },

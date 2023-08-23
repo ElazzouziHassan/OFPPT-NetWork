@@ -56,8 +56,12 @@ function NavBar() {
         <div className={isActive ? 'sub-menu-wrap' : 'sub-menu-wrap open-menu'} id="drop-down-menu">
           <div className="sub-menu">
             <div className="user-info">
-              <img src={User} alt="user" />
-              <span>Jhon Doe </span>
+              <Link>
+                <img src={User} alt="user" />
+              </Link>
+              <Link to='profile/1'style={{ textDecoration:'none' }}>
+                <span>Jhon Doe </span>
+              </Link>
             </div>
             <hr />
             <a href="#" className="sub-menu-link">

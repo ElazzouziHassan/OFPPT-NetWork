@@ -21,6 +21,17 @@
       background-color: transparent;
       border: none;
     }
+    input[type="text"] {
+      color: themed("iconColor");
+      width: 100%;
+      padding: 10px 20px;
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      border: none;
+      outline: none;
+    }
   }
   hr{
     margin: 10px 0;

@@ -2,6 +2,9 @@
 .home{
   @include themify($themes) {
     background-color: themed('bgSoft');
-    padding: 10px 70px;
+    .feeds{
+      flex: 5.5;
+      padding: 10px 50px;
+    }
   }
 }

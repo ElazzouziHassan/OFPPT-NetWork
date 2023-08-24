@@ -145,7 +145,7 @@ function RightBar() {
             </div>
           </div>
           <hr />
-          <div className="messenger">
+          <div className="messenger-btn">
             <button>Open Messenger</button>
           </div>
         </div>

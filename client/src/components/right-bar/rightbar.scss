@@ -1,7 +1,7 @@
 @import '../../style.scss';
 .right-bar{
   @include themify($themes) {
-  flex: 2.7;
+  flex: 2.9;
   position: sticky;
   top: 7vh;
   height: calc(100vh - 7vh);
@@ -70,7 +70,11 @@
             height: 20px;
           }
           span{
-            
+            font-weight: bold;
+            p{
+              font-size: 14px;
+              font-weight: 300;
+            }
           }
         }
         .actions{

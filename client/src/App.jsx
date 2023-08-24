@@ -26,13 +26,7 @@ function App() {
     return (
       <div className={`theme-${darkMode ? "dark" : "light"}`}>
         <NavBar />
-        <div style={{ display:"flex" }}>
-          <LeftBar />
-          <div style={{ flex: 6.3}}>
-            <Outlet />
-          </div>
-          <RightBar/>
-        </div>
+        <Outlet/>
       </div>
     )
   }

@@ -31,11 +31,10 @@
         align-items: center;
         gap: 10px;
         cursor: pointer;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
         transition: ease-in .5s;
         &:hover span{
-          font-size: 19px;
-          font-weight: 800;
+          color: themed('textOnFocus');
         }
         img{
           width: 40px;
@@ -59,9 +58,9 @@
         align-items: center;
         gap: 10px;
         transition: ease-in .4s;
+        font-weight: bold;
         &:hover span{
-          color: themed('textOnHover');
-          font-weight: bold;
+          color: themed('textOnFocus');
         }
         &:hover .left-bar-icon{
           color: themed('textOnFocus');

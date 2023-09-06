@@ -5,7 +5,6 @@ import Posts from '../../components/posts/Posts'
 import LeftBar from '../../components/left-bar/LeftBar'
 import RightBar from '../../components/right-bar/RightBar'
 
-
 function Home() {
   return (
     <div className="home">

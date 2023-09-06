@@ -2,17 +2,12 @@ import "./post.scss";
 import React from 'react'
 import User from "../../assets/user.gif"
 import Verify from '../../assets/icons/verify.png'
-
 // !just for test:
 import Image from '../../assets/mediaPost.jpg'
-
-// MUI ICONS :----------------------------------------------------------------
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import TextsmsOutlinedIcon from '@mui/icons-material/TextsmsOutlined';
 import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
 import FlagCircleOutlinedIcon from '@mui/icons-material/FlagCircleOutlined';
-
-// ---------------------------------------------------------------------------
 
 function Post() {
   // media:----------

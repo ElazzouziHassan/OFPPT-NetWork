@@ -1,10 +1,8 @@
 import "./rightbar.scss";
 import React from 'react'
-import User from '../../assets/user.gif'
 import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
 import PersonRemoveOutlinedIcon from '@mui/icons-material/PersonRemoveOutlined';
 import Verify from '../../assets/icons/verify.png'
-
 
 function RightBar() {
   return (
@@ -67,7 +65,6 @@ function RightBar() {
             </div>
             <span>3 min ago</span>
           </div>
-          
         </div>
         <div className="item">
           <span>Online Friends</span>

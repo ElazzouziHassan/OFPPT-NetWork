@@ -9,14 +9,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
- 
   .card{
       display: flex;
       background-color: #fff;
       width: 50%;
       border-radius: 10px;
       min-height: 65vh;
-      
       .left{
           flex: 1;
           background: 
@@ -26,17 +24,14 @@
           padding: 28px;
           color: rgb(255, 255, 255);
           border-radius: 10px 0 0 10px;
-          
           img{
             width: 20rem;
             height: 10rem;
-            
           }
           h3{
             font-size: 1.2rem;
             text-transform: uppercase;
             color: rgb(29, 32, 39);
-            
           }
           .new-users{
             display: flex;
@@ -47,7 +42,6 @@
               font-size: 1.2rem;
               color: rgb(38, 46, 63);
               font-weight: 600;
-             
             }
             button{
               width: 8rem;
@@ -59,7 +53,6 @@
               cursor: pointer;
               border-radius: 5px;
               transition: all .4s ease-in-out;
-              
             } 
             button:hover{
               background-color: rgb(75, 155, 94);
@@ -75,16 +68,13 @@
           flex-direction: column;
           gap: 40px;
           margin-top: 1.6rem;
-         
           h3{
              font-size: 3.5rem;
-             
           }
           form{
               display: flex;
               flex-direction: column;
               gap: 15px;
-             
               input{
                   border: none;
                   border-bottom: 1px solid lightslategrey;
@@ -100,7 +90,6 @@
                   cursor: pointer;
                   border-radius: 5px;
                   transition: all .4s ease-in-out;
-                  
               }
               button:hover{
                 background-color: rgb(75, 155, 94);
@@ -116,51 +105,40 @@
   .login {
     height: auto;
     padding: 2rem;
-    
     .card {
       flex-direction: column;
       width: 100%;
       min-height: auto;
       border-radius: 0;
-      
       .left {
         border-radius: 0;
-        
         img {
           width: 12rem;
           height: 6rem;
         }
-        
         h3 {
           font-size: 1rem;
         }
-        
         .new-users {
           margin-top: 1rem;
-          
           span {
             font-size: 1rem;
           }
-          
           button {
             width: 100%;
           }
         }
       }
-      
       .right {
         padding: 2rem 0;
-        
         h3 {
           font-size: 2rem;
           text-align: center;
         }
-        
         form {
           input {
             padding: 10px 0;
           }
-          
           button {
             width: 100%;
           }
@@ -175,51 +153,40 @@
   .login {
     height: auto;
     padding: 2rem;
-    
     .card {
       flex-direction: column;
       width: 100%;
       min-height: auto;
       border-radius: 0;
-      
       .left {
         border-radius: 0;
-        
         img {
           width: 14rem;
           height: 7rem;
         }
-        
         h3 {
           font-size: 1rem;
         }
-        
         .new-users {
           margin-top: 1rem;
-          
           span {
             font-size: 1rem;
           }
-          
           button {
             width: 100%;
           }
         }
       }
-      
       .right {
         padding: 2rem 0;
-        
         h3 {
           font-size: 2rem;
           text-align: center;
         }
-        
         form {
           input {
             padding: 10px 0;
           }
-          
           button {
             width: 100%;
           }
@@ -233,28 +200,22 @@
 @media (min-width: 1024px) {
   .login {
     height: 100vh;
-    
     .card {
       width: 50%;
-      
       .left {
         img {
           width: 20rem;
           height: 10rem;
         }
-        
         h3 {
           font-size: 1.2rem;
         }
       }
-      
       .right {
         padding: 40px;
-        
         h3 {
           font-size: 3.5rem;
         }
-        
         form {
           button {
             width: 50%;

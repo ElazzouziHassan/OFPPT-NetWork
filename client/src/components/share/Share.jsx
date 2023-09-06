@@ -3,7 +3,6 @@ import User from '../../assets/user.gif'
 import DriveFolderUploadOutlinedIcon from '@mui/icons-material/DriveFolderUploadOutlined';
 import TagOutlinedIcon from '@mui/icons-material/TagOutlined';
 import EmojiEmotionsOutlinedIcon from '@mui/icons-material/EmojiEmotionsOutlined';
-
 import React from 'react'
 
 function Share() {

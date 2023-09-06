@@ -1,5 +1,4 @@
 import "./posts.scss";
-
 import React from 'react'
 import Post from '../post/Post'
 

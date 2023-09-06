@@ -101,7 +101,6 @@ function NavBar() {
               <p>Logout</p>
               <img src={Arrow}  />
             </a>
-
           </div>
         </div>
       </div>

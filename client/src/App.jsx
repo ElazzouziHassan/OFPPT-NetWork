@@ -13,13 +13,11 @@ import Messenger from './pages/messenger/Messenger'
 import Favorites from './pages/favorites/Favorites'
 import Friends from './pages/friends/Friends'
 
-
 function App() {
   // fake authenticated user :
   const currentUser = true;
 
   const { darkMode } = useContext(DarkModeContext);
-
 
   // Main Layout :
   const Layout = () => {
@@ -59,4 +57,5 @@ function App() {
     </div>
   )
 }
+
 export default App

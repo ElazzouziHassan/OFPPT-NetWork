@@ -4,7 +4,9 @@ import React from 'react'
 
 function Comments() {
   return (
-    <div>Comments</div>
+    <div className="comments">
+      <h1>comments</h1>
+    </div>
   )
 }
 

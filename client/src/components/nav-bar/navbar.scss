@@ -1,5 +1,4 @@
 @import "../../style.scss";
-
 .nav-bar{
   @include themify($themes){
   z-index: 999;
@@ -130,7 +129,6 @@
             }
           } 
         }
-
         hr{
           border: 0;
           height: 1px;

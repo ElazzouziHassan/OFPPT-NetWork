@@ -1,5 +1,10 @@
 export const register = (req, res) => {
-  // to do operation
+  
+  // verify user existence !
+
+  const q = "SELECT FROM users WHERE username = ?";
+
+
 }
 
 export const login = (req, res) => {

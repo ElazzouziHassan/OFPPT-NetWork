@@ -7,5 +7,4 @@ router.get("/posts", getPosts);
 router.get("/posts", addPost);
 router.get("/posts", deletePost);
 
-
 export default router

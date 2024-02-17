@@ -6,5 +6,4 @@ router.get("/", getLikes);
 router.get("/", addLike);
 router.get("/", removeLike);
 
-
 export default router
